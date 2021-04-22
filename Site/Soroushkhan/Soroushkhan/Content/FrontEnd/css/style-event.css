@@ -1,0 +1,48 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #808080;
+}
+.lora {
+	font-family: 'Lora', serif;
+	color: #191919;
+}
+a, a:hover, a:active {
+	color: #f93616;
+}
+#hook-to-top {
+	background-color: #f93616;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #f93616;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #f93616;
+}
+.service-item .service-icon > i {
+    color: #f93616;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #222222;
+}
+.main-menu .main-nav > li > a:hover {
+    color: #222222;
+}
+.button-slide a, .button {
+	background-color: #f93616;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #f93616 !important;
+}
+.accordion-heading .number {
+    color: #f93616;
+}
+.contact-item > i {
+    color: #f93616;
+}
+.recent-post h6 a:hover {
+    color: #f93616;
+}

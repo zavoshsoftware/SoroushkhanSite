@@ -1,0 +1,102 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #808080;
+	font-size: 20px;
+}
+.section-ltr {
+	direction: ltr;
+}
+a, a:hover, a:active {
+	color: #f36176;
+}
+#hook-to-top {
+	background-color: #f36176;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #f36176;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #f36176;
+}
+.service-item .service-icon > i {
+    color: #f36176;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #222222;
+}
+.main-menu .main-nav > li > a:hover {
+    color: #222222;
+}
+.main-menu .main-nav > li > a {
+    font-weight: 600;
+    font-size: 23px;
+}
+.main-menu .main-nav > li {
+    float: right;
+}
+.main-menu {
+    float: left;
+}
+.header #logo {
+    float: right;
+    margin-left: 28px;
+	margin-right: 0;
+}
+.button-slide a, .button {
+	background-color: #f36176;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #f36176 !important;
+}
+.accordion-heading .number {
+    color: #f36176;
+}
+.contact-item > i {
+    color: #f36176;
+}
+.recent-post h6 a:hover {
+    color: #f36176;
+}
+.testimonials-slider .owl-page.active:before {
+    background-color: #f36176;
+    border-color: #f36176;
+}
+.simple-line-3 {
+    border-bottom: 4px solid #f36176;
+}
+.service-item .service-icon {
+    left: initial;
+	right: 0;
+}
+.service-item .service-content {
+    margin-left: 0;
+	margin-right: 58px;
+	text-align: right;
+}
+.testimonials-slider .tm-content h4, 
+.testimonials-slider .tm-content .tm-subtitle {
+    font-weight: 400;
+}
+.block-progressbar .progressbar-front-text {
+	left: 0;
+	right: initial;
+}
+.newsletter-form .submit-wrapper {
+    left: 1px;
+	right: initial;
+}
+.newsletter-form .submit-wrapper .button {
+	padding: 4px 25px 5px;
+}
+.simple-line {
+    border-bottom: 4px solid #f36176;
+}
+@media (max-width: 768px) {
+	.header-mobile {
+		text-align: left;
+	}
+}

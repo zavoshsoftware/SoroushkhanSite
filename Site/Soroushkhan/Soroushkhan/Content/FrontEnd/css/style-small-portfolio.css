@@ -1,0 +1,70 @@
+body {
+    font-family: 'Mukta', sans-serif;
+	color: #ffffff;
+	background-color: #0f1219;
+}
+.over-rainbow {
+	font-family: 'Over the Rainbow', cursive;
+}
+a, a:hover, a:active {
+	color: #e91e63;
+}
+#hook-to-top {
+	background-color: #e91e63;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #e91e63;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #e91e63;
+}
+.service-item .service-icon > i {
+    color: #e91e63;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #222222;
+}
+.main-menu .main-nav > li > a {
+	height: 140px;
+    line-height: 140px;
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 18px;
+}
+.main-menu .main-nav > li > a:hover {
+    color: #e91e63;
+}
+.header #logo {
+    margin-top: 30px;
+}
+.button-slide a, .button {
+	background-color: #e91e63;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #e91e63 !important;
+}
+.accordion-heading .number {
+    color: #e91e63;
+}
+.contact-item > i {
+    color: #49567d;
+}
+.recent-post h6 a:hover {
+    color: #e91e63;
+}
+.single-blog-info #anchor {
+    position: absolute; 
+}
+@media (max-width: 480px) {
+    #main {
+		margin-top: 66px;
+	}
+	.single-blog-info-inner.middle {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}

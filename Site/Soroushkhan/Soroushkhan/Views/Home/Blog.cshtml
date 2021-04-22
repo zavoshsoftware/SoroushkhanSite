@@ -1,0 +1,333 @@
+﻿
+@model int
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<link rel="shortcut icon" href="/images/favicon.png" />
+	<title>درباره من | وب سایت شخصی سروش نژاد آذر</title>
+
+	<link rel="stylesheet" href="/Content/Frontend/css/bootstrap.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/bootstrap-dropdownhover.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/font-awesome.min.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/font-materialdesign.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/settings.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/owl.carousel.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/owl.theme.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/owl.transitions.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/magnific-popup.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/flexslider.css" type="text/css" media="all" />
+	<link rel='stylesheet' href='/Content/Frontend/css/animate.min.css' type='text/css' media='all' />
+	<link rel="stylesheet" href="/Content/Frontend/css/morphext.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/style-main.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/Content/Frontend/css/custom.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" />
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href="~/Content/FrontEnd/css/style-zavosh.css" rel="stylesheet" />
+	
+	<style>
+		#main {
+			direction: rtl;
+		}
+	</style>
+</head>
+<body>
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+	</div>
+	<div id="body_hider" class="hider_flag"></div>
+	<div id="body_hider_full" class="hider_flag"></div>
+	<div class="hidden-bar">
+		<div class="hidden-bar-inner">
+			<div id="hidden-bar-mobile-logo">
+				<a href="/"><img src="/images/logo-sorush.png" alt="" /></a>
+			</div>
+			<div class="menu-mobile">
+				<ul>
+					<li><a href="/">صفحه اصلی</a></li>
+					<li><a href="/home/about">درباره من</a></li>
+					<li><a href="/home/bloglist">دست نوشته ها</a></li>
+					<li><a href="/home/contact">تماس با من</a></li>
+				</ul>
+			</div>
+			<div class="hook-social minimal">
+				<div class="hook-social-inner">
+					<div class="social-img-wrp hook-socialink prk_bordered hook-behance">
+						<a href="#" target="_blank">
+							<span class="hook-behance fa fa-behance"></span>
+							<span class="bg-shifter"><i class="fa fa-behance"></i></span>
+						</a>
+					</div>
+					<div class="social-img-wrp hook-socialink prk_bordered hook-dribbble">
+						<a href="#" target="_blank">
+							<span class="hook-dribbble fa fa-dribbble"></span>
+							<span class="bg-shifter"><i class="fa fa-dribbble"></i></span>
+						</a>
+					</div>
+					<div class="social-img-wrp hook-socialink prk_bordered hook-facebook">
+						<a href="#" target="_blank">
+							<span class="hook-facebook fa fa-facebook"></span>
+							<span class="bg-shifter"><i class="fa fa-facebook"></i></span>
+						</a>
+					</div>
+					<div class="social-img-wrp hook-socialink prk_bordered hook-instagram">
+						<a href="#" target="_blank">
+							<span class="hook-instagram fa fa-instagram"></span>
+							<span class="bg-shifter"><i class="fa fa-instagram"></i></span>
+						</a>
+					</div>
+					<div class="social-img-wrp hook-socialink prk_bordered hook-pinterest">
+						<a href="#" target="_blank">
+							<span class="hook-pinterest fa fa-pinterest"></span>
+							<span class="bg-shifter"><i class="fa fa-pinterest"></i></span>
+						</a>
+					</div>
+					<div class="social-img-wrp hook-socialink prk_bordered hook-soundcloud">
+						<a href="#" target="_blank">
+							<span class="hook-soundcloud fa fa-soundcloud"></span>
+							<span class="bg-shifter"><i class="fa fa-soundcloud"></i></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="search-hider"></div>
+	<div class="hidden-menu">
+		<div class="hidden-menu-inner">
+			<ul class="main-nav">
+				<li><a href="/">صفحه اصلی</a></li>
+				<li><a href="/home/about">درباره من</a></li>
+				<li><a href="/home/bloglist">دست نوشته ها</a></li>
+				<li><a href="/home/contact">تماس با من</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="site">
+	<header class="header-mobile">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-10">
+					<a href="/" id="logo-2">
+						<img class="logo-image" src="/images/logo-sorush.png" alt="Hook Logo">
+					</a>
+				</div>
+				<div class="col-xs-2">
+					<div class="text-right"><i class="fa fa-bars hidden-bar-toggle"></i></div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<header class="header header-transparent header-desktop">
+		<div class="header-inner">
+			<div class="header-main">
+				<div id="logo">
+					<div id="logo-before">
+						<a href="/"><img src="/images/logo-sorush.png" alt="" /></a>
+					</div>
+					<div id="logo-after">
+						<a href="/"><img src="/images/logo-sorush.png" alt="" /></a>
+					</div>
+				</div>
+				<div class="overlay-menu">
+					<div class="line line-1"></div>
+					<div class="line line-2"></div>
+					<div class="line line-3"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+		<div id="main">
+			<div class="section section-fixed section-bg-29 pt-20 pb-20">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="text-center">
+							@if (Model == 1)
+							{
+								<h1 class="fw-bolder big white mb-1">
+									‎هیچ آلترناتیوی برای سینما وجود ندارد
+								</h1>
+							}
+							@if (Model == 2)
+							{
+								<h1 class="fw-bolder big white mb-1">
+									کرونا و سبک زندگی کافه‌ای
+								</h1>
+							}
+							@if (Model == 3)
+							{
+								<h1 class="fw-bolder big white mb-1">
+									‎پتانسیل از دست‌رفته بازسازی سینماها
+								</h1>
+							}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section bg-gray-2">
+				<div class="container-fluid">
+					<div class="row blog-detail">
+						<div class="col-md-12">
+							<div class="pt-7 pb-10 pr-15 pl-15 bg-white">
+								@if (Model == 1)
+								{
+									<img src="/images/blog1.jpg" />
+									<h1>
+										‎هیچ آلترناتیوی برای سینما وجود ندارد
+									</h1>
+									<p>
+										‎کرونا همه چیز را درنوردید و سبک زندگی را دگرگون کرد. سینما در یک سال مبارزه با کرونا، ورشکسته شد و اقتصاد آن به بن‌بست رسید. سوالی که ذهن بسیاری از سینماگران و سینمادوستان را اشغال کرده این است که چه راهکارهایی برای احیای سینمای به شدت آسیب‌دیده بعد از کرونا، می‌توان متصور شد؟ آیا اساسا سینما در پساکرونا قابل احیاست یا اینکه همگان باید برای همیشه، آن تصور خیال‌انگیز و شاعرانه که از صنعت سینما داشتیم را ببوسیم و به حافظه تاریخ هنر و تاریخ بشری بسپاریم؟ کرونا دگرگونی بس عظیمی در ساختار و اقتصاد همه چیز از جمله صنعت سینما حادث کرده و ریه‌های اقتصاد هنر هفتم را به سیاه‌سرفه‌های ورشکستگی کشانده است.
+									</p><p>
+										‎تا به اینجا همگان درباره این تبعات، اطلاعات نه چندان وسیعی دارند و موضوع تازه‌ای را به بحث نگذاشته‌ایم! مسأله و بحث اصلی اندیشیدن به راهکارهای عملیاتی برای برون‌رفت از این بحران جهانی است که گلوی همه را فشار می‌دهد و به وضوح می‌بینیم که نفس‌های صنعت سینما هم به شماره افتاده است.
+									    </p><p>
+										‎به اعتقاد نگارنده، برای برون‌رفت از این منجلاب اقتصادی حاصل از کرونا که پیکر سینما را به درون می‌کشد، باید بدون فوت وقت اتاق فکری تشکیل داد و تمام صاحبان اندیشه که دغدغه هنر و سینما دارند را واداشت که به فراخور این پدیده شوم و ابعاد آن، راهکار خلق کنند.
+									        </p><p>
+										‎تجربه اکران آنلاین تولیدات سینمایی در یک سال اخیر هم، چنگی به دل نمی‌زند و صاحبان اندیشه باید به این نکته مهم توجه داشته باشند که پتانسیل‌های دنیای آنلاین و مخاطبان مجازی، هرگز نمی‌تواند جای بسیار بزرگ و خالی سینما در دنیای واقعی را بگیرد. پس صدور تز مبنی بر بهره‌گیری از ظرفیت‌های مجازی، فریبی گذراست و هرگز قادر نخواهد بود زخم بس عمیقی که بر پیکر سینما وارد شده را مداوا کند. از سوی دیگر، شواهد نشان می‌دهد که الگوی زندگی در فردای کرونا دگرگون شده و دیگر هرگز به سبک سابق زندگی باز نخواهیم گشت، حال پرسش اساسی بی‌پاسخ این است: چه آلترناتیو هوش‌فزا و دل‌ربایی برای صنعت سینما بازتعریف خواهد شد و سیل عظیم مخاطبان هنرهفتم، این گمشده خود را در کدام دنیا جست‌وجو خواهند کرد و خیل ریسک‌پذیر خالقان محصولات سینمایی، رویاهای خود را در چه بستری دنبال خواهند کرد و چه عواقبی در انتظار تمام عاشقانی است که تمام سرمایه فکری و مادی خود را صرف خلق تولیدات فاخر سینمایی کردند اما از بخت ناگوار، به پست کرونا خوردند و نه تنها فیلم‌شان دیده نشد بلکه سرمایه هنگفت‌شان هم بر باد رفت و ...
+									            </p><p>
+										‎شدت و حدت این ورشکستگی به اندازه‌ای عظیم است که به وضوح باید اعتراف کرد هیچ آلترناتیو شایسته‌ای نمی‌تواند جای سینما را بگیرد جز خود سینما. پس خودمان را آماده کنیم که سینما را در فردای کرونا به آغوش بکشیم و فکر دگرگون شدن سبک زندگی سینمایی را از سر و از دل به در کنیم. هیچ مرهمی برای التیام زخم کاری کرونا بر پیکر سینما وجود ندارد جز خود سینما. باید درها را گشود و مخاطبان را به دمی سینما در دنیای واقعی مهمان کرد.
+									</p>
+								}	@if (Model == 2)
+								{
+									<img src="/images/blog2.jpg" />
+									<h1>
+										کرونا و سبک زندگی کافه‌ای
+
+									</h1>
+									<p>
+										برای کسانی که کافه‌‍باز هستند و شادی و غم خودشان را در کافه پیدا می‌کنند، وقتی خوشحال هستند خودشان را به یک فنجان قهوه میهمان می‌کنند و زمانی هم که در اندوه و ناراحتی و تنهایی غرق هستند به دامان کافه‌ها پناه می‌برند، کرونا یک کابوس وحشتناک و فراموش‌ناشدنی ا‌ست. کافه‌های تهران که مستقیم از سبک زندگی این مردم هزارلایه، نشئت می‌گیرد، بیشترین آسیب فرهنگی و حتی اقتصادی را از اپیدمی کرونا متحمل شده‌اند. چه برای کسانی که در صنف کافه‌داری کارآفرینی کرده‌اند و چه برای تمام کافه‌دوستان و کافه‌نشینانی که شب‌های بلند و طولانی تهران را از شلوغی و ازدحام شهر، به گوشه خلوت و دنج پناه می‌بردند، بازشدن کافه‌ها هرچند به‌صورت محدود، نعمتی گران و نایاب بود. درست زمانی که فکر می‌کردیم بر تمام احساسات خود سوار هستیم و تجارت هنر را در چنته گرفته‌ایم، یک موجود میکروسکوپی ناشناس آمد و همه‌چیز را ویران کرد و با خود برد. نمی‌توان انکار کرد که کافه‌ها و قهوه‌خانه‌ها و حتی سفره‌خانه‌ها که دیرزمانی صدای خنده‌ها و نشاط مردم را در حافظه خود ثبت کرده بود، چگونه در انزوایی تاریک و ترسناک و بی‌درآمدی فرورفتند. 
+
+									</p><p>
+
+
+									    
+
+										    <a target="_blank" href="https://sharghdaily.com/fa/main/detail/277742/%DA%A9%D8%B1%D9%88%D9%86%D8%A7-%D9%88-%D8%B3%D8%A8%DA%A9-%D8%B2%D9%86%D8%AF%DA%AF%DB%8C-%DA%A9%D8%A7%D9%81%D9%87%E2%80%8C%D8%A7%DB%8C">
+											    مطلب کاامل در روزنامه شرق / سه شنبه 14 بهمن 1399 / صفحه 7 - مد ایرانی و اسلامی
+
+
+										    </a>
+									</p>
+								}	@if (Model == 3)
+								{
+									<img src="/images/blog3.jpg" />
+
+									<h1>
+										‎پتانسیل از دست‌رفته بازسازی سینماها
+
+									</h1>
+								<p>
+										‎کرونا، سینماها را به تعطیلی کشاند اما آیا دغدغه‌مندان سینما و متولیان و سینماداران، از فرصت اجباری پیش آمده بهره‌برداری لازم را جهت بازسازی بدنه فرسوده و خسته‌ی بسیاری از سینماها داشتند؟ 
+									</p><p>
+										‎به جرات می‌توان گفت خیر. به جز تعداد معدودی از سینماداران و دغدغه‌مندان که فرصت تلخ تعطیلی سینماها را مغتنم دانستند و پیکر خسته این هنر را به زیور بازسازی و نوسازی آراستند و آمارشان به تعداد انگشتان دو دست نمی‌رسد، شاهد حرکت خاصی نبودیم. 
+									    </p><p>
+										‎در بررسی‌های یک سال اخیر، به ندرت یافته‌ای در اخبار یا گزارش‌های شبکه‌های اجتماعی دیده‌ام که خبر از نوسازی تجهیزات و بازسازی سازه‌های سینمایی در دوران رکود و تعطیلی اجباری دهد.
+									        </p><p>
+										‎دیر یا زود، «ویروس منحوس» کرونا از زندگی ما خارج شده و امید می‌رود که سینماها به اشل فعالیت سابق خود بازگردند اما افسوسا که یک سال تعطیلی فیزیکی سینماها، این گوشزد را در دل سینماگران ایجاد نکرد که بازسازی و نوسازی ارگان سینمایی کشور را مطالبه کنند و به مثابه یک میل و خواسته جدی، پیگیر باشند. فردای کرونا، منهای سینماهای نوسازی که در اختیار جامعه هنردوست و مردم سینمادوست قرار دارد، باید به آغوش خسته بیشتر سازه‌هایی برویم که به‌واقع فرصت تلخ تعطیلی کرونایی را که نفس‌های سینما را به شماره انداخت، درست مثل یک تنفس عمیق صبحگاهی قلمداد کرد که بتواند هوای تازه‌ای به ریه‌های سینما بدهد!
+									            </p><p>
+										‎اما دریغ و درد که رنج سینمای کرونازده از یک سو و مغتنم نشمردن فرصت اجباری برای بازسازی پیکر خسته و مخدوش سینماها از سوی دیگر، نوید بازگشت به فضایی را می‌دهد که هر چند لحظه‌شماری می‌کند که چراغش روشن شود اما بدون تردید خوشحال‌تر جلوه می‌کرد اگر دستی به بروروی آنها کشیده می‌شد و ظرفیت تازه‌ای برای پذیرش خیل عظیم مردمی که یک سال و اندی از آغوش سینما دور بودند، ایجاد می‌کرد.
+									                </p><p>
+										‎البته هنوز دیر نشده و در چند ماه کوتاهی که به پایان کرونا مانده، وظیفه اجتماعی تمام دغدغه‌مندان هنر هفتم اقتضا می‌کند که بازسازی سینماها را همانند مطالبه‌ای جدی پیگیری کنند و در دستور کار قرار دهند.
+										</p>
+									 
+								}
+						 
+
+							</div>
+						</div>
+			 
+					</div>
+				</div>
+			</div>
+			 
+		</div>
+		<footer class="footer pt-11 bg-dark-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center white mb-3">
+							<img width="295" src="/images/logo-footer.png" alt="" />
+							<div class="mt-4"></div>
+							<h5 class="color big fw-600">سروش نژاد آذر</h5>
+							<p>جهت تماس با من می توانید از راه های ارتباطی زیر استفاده کنید<br /> </p>
+						</div>
+						<div class="text-center white mb-2">
+							<p>09122261798 . <a href="mailto:info@Soroushkhan.ir">info@Soroushkhan.ir</a> . www.Soroushkhan.ir</p>
+						</div>
+						<div class="text-center mb-9">
+							<div class="hook-social minimal">
+								<div class="hook-social-inner">
+									<div class="social-img-wrp hook-socialink prk_bordered hook-twitter">
+										<a href="http://twitter.com/Soroushkhann" target="_blank">
+											<span class="hook-twitter fa fa-twitter"></span>
+											<span class="bg-shifter"><i class="fa fa-twitter"></i></span>
+										</a>
+									</div>
+						 
+									<div class="social-img-wrp hook-socialink prk_bordered hook-facebook">
+										<a href="#" target="_blank">
+											<span class="hook-facebook fa fa-facebook"></span>
+											<span class="bg-shifter"><i class="fa fa-facebook"></i></span>
+										</a>
+									</div>
+									<div class="social-img-wrp hook-socialink prk_bordered hook-instagram">
+										<a href="http://instagram.com/Soroushkhann" target="_blank">
+											<span class="hook-instagram fa fa-instagram"></span>
+											<span class="bg-shifter"><i class="fa fa-instagram"></i></span>
+										</a>
+									</div>
+							 
+								</div>
+							</div>
+						</div>
+						<div class="text-center white">
+							<div class="simple-line"></div>
+							<p><a href="#">طراحی سایت زاوش</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="hook-to-top" class="prk_radius">
+		<i class="fa fa-arrow-up"></i>
+	</div>
+
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/bootstrap-dropdownhover.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.singlePageNav.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/modernizr-2.7.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/classie.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.isotope.init.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.countTo.js"></script>
+	<script type='text/javascript' src='/Scripts/FrontEnd/waypoints.min.js'></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/bootstrap-progressbar.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jQuery.headroom.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/headroom.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/morphext.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/jquery.equalheights.min.js"></script>
+	<script type="text/javascript" src="/Scripts/FrontEnd/script.js"></script>
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDwtb7cR_XBPEvxtQ_Yq3_xKsOWQroCTPA&amp;sensor=false"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #444444;
+}
+a, a:hover, a:active {
+	color: #e62c2c;
+}
+#hook-to-top {
+	background-color: #e62c2c;
+}
+.main-menu .main-nav > li > a:before,
+.main-menu .main-nav > li > a:after {
+	display: none;
+}
+.main-menu .main-nav > li > a {
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 14px;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #e62c2c;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #e62c2c;
+}
+.service-item .service-icon > i {
+    color: #e62c2c;
+}
+#anchor, .anchor {
+    bottom: 40px;
+}
+.lora {
+	font-family: 'Lora', serif;
+	color: #191919;
+}
+.simple-line {
+	border-width: 6px;
+	border-color: #e62c2c;
+}
+.simple-line-3 {
+	border-color: #e2e2e2;
+}
+.button {
+	background-color: #e62c2c;
+}
+.button:before {
+	background-color: #d11e1e;
+    border-color: #d11e1e;
+}
+.masonry-filter li a {
+	text-transform: uppercase;
+	font-size: 0.85em;
+	color: #aaaaaa;
+}
+.masonry-filter li a.active, .masonry-filter li a:hover {
+    color: #191919;
+}
+.counter-digit {
+    margin-bottom: 10px;
+}
+.counter-desc {
+    font-family: 'PT Sans', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+.contact-form .form-text, .contact-form .form-textarea {
+	border-color: #e2e2e2;
+	background: none;
+}
+.contact-form .form-text.highlighted:focus,
+.contact-form .form-textarea.highlighted:focus {
+    border-color: rgba(230, 44, 44 ,0.65);
+	background-color: rgba(242, 242, 242 ,0.95);
+	color: #e62c2c;
+}
+.contact-form .form-text.highlighted:focus::-webkit-input-placeholder,
+.contact-form .form-textarea.highlighted:focus::-webkit-input-placeholder {
+	color: #e62c2c;
+}
+.contact-form .form-text.highlighted:focus:-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus:-moz-placeholder {
+	color: #e62c2c;
+}
+.contact-form .form-text.highlighted:focus::-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus::-moz-placeholder {
+	color: #e62c2c;
+}
+.contact-form .form-text.highlighted:focus:-ms-input-placeholder,
+.contact-form .form-textarea.highlighted:focus:-ms-input-placeholder {
+	color: #e62c2c;
+}
+.recent-post h6 a:hover {
+    color: #e62c2c;
+}

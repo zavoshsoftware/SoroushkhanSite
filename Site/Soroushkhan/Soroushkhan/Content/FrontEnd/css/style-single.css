@@ -1,0 +1,104 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #444444;
+}
+.lora {
+	font-family: 'Lora', serif;
+	color: #191919;
+}
+a, a:hover, a:active {
+	color: #ffc400;
+}
+#hook-to-top {
+	background-color: #ffc400;
+}
+.main-menu .main-nav > li > a {
+	font-weight: 600;
+    font-size: 14px;
+	color: #fff;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #ffc400;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #ffc400;
+}
+.service-item .service-icon > i {
+    color: #ffc400;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #fff;
+}
+.main-menu .main-nav > li > a:hover {
+    color: #ffc400;
+}
+.button-slide a, .button {
+	background-color: #ffc400;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #ffc400 !important;
+}
+.accordion-heading .number {
+    color: #ffc400;
+}
+.contact-item > i {
+    color: #ffc400;
+}
+.recent-post h6 a:hover {
+    color: #ffc400;
+}
+.button:before {
+	background-color: #fca800;
+}
+.single-blog-info #anchor {
+    position: absolute; 
+}
+.simple-line {
+	border-color: #ffc400;
+}
+.testimonials-slider .owl-page.active:before {
+    background-color: #ffc400;
+    border-color: #ffc400;
+}
+.product_title {
+    font-size: 34px;
+    margin-bottom: 14px;
+	color: #191919;
+	font-weight: 600;
+}
+.price {
+	margin-bottom: 24px;
+    width: 100%;
+    float: none;
+	color: #191919;
+	font-size: 24px;
+    line-height: 1.2em;
+}
+.variations {
+    margin-bottom: 1em;
+    border: 0;
+    width: 100%;
+}
+.variations td.label {
+    width: 18px;
+	display: block;
+}
+.variations td.label label {
+    padding-top: 8px;
+	font-weight: 700;
+	color: #191919;
+	font-size: 15px;
+}
+form.cart button {
+	background: #ffc400;
+}
+form.cart button:hover {
+    background: #fca800;
+}
+.contact-item > i {
+    color: #ffc400;
+}

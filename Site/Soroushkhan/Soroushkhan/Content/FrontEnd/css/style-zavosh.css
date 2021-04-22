@@ -1,0 +1,68 @@
+﻿@font-face {
+    font-family: 'Iransans';
+    src: url(/fonts/IranSans/IRANSansWebFaNum.eot) format('embedded-opentype'), url(/fonts/IranSans/IRANSansWebFaNum.woff2) format('woff2'), url(/fonts/IranSans/IRANSansWebFaNum.woff) format('woff'), url(/fonts/IranSans/IRANSansWebFaNum.ttf) format('truetype');
+    font-display: fallback;
+}
+
+body, p, a, h1, h2, h3, h4, h5, h6, ul, li, input, button, table, th, td {
+    font-family: IRANSans,"tahoma","arial";
+}
+
+.about-home h3 {
+    color: #fff;
+    font-size: 2.85em;
+    margin-bottom: 30px;
+}
+
+.about-home p {
+    color: #fff;
+    font-size: 15px;
+    text-align: justify;
+    direction: rtl;
+}
+
+.theater-section {
+    direction: rtl;
+}
+
+
+    .theater-section p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+.soroush-skill {
+    direction: rtl;
+}
+
+.blog-home .col-md-4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    .blog-home .col-md-4 .blogitem {
+        border: 1px solid #ddd;
+    }
+
+        .blog-home .col-md-4 .blogitem a {
+            color: #000;
+        }
+
+        .blog-home .col-md-4 .blogitem p {
+            padding: 10px;
+        }
+
+.blog-detail .col-md-12 {
+    text-align: center;
+}
+
+    .blog-detail .col-md-12 img {
+        margin-bottom: 20px;
+    }
+
+    .blog-detail .col-md-12 h1 {
+        margin-bottom: 20px;
+    }
+
+    .blog-detail .col-md-12 p {
+        font-size: 15px;    }

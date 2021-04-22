@@ -1,0 +1,38 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #989898;
+}
+.os-font {
+    font-family: 'Open Sans';
+}
+a, a:hover, a:active {
+	color: #49B6B2;
+}
+#hook-to-top {
+	background-color: #49B6B2;
+}
+.header.header-transparent .overlay-menu:hover .line, 
+.header.header-transparent.scrolling-menu .overlay-menu .line {
+    background-color: #49B6B2;
+}
+.simple-line {
+	border-color: #49B6B2;
+}
+.section.bg-reason-1 {
+    background-position: -220px top;
+}
+.section.bg-reason-2 {
+    background-position: right top;
+}
+.service-item .service-icon > i {
+    color: #49B6B2;
+	font-size: 50px;
+}
+.testimonials-slider img {
+    width: 140px;
+}
+@media (max-width: 480px) {
+    .single-blog-info #anchor {
+		transform: translateX(0%);
+	}
+}

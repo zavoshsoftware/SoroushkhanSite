@@ -1,0 +1,61 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+a, a:hover, a:active {
+	color: #ea2e49;
+}
+#hook-to-top {
+	background-color: #ea2e49;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #ea2e49;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #ea2e49;
+}
+.service-item .service-icon > i {
+    color: #ea2e49;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #222222;
+}
+.main-menu .main-nav > li > a {
+	height: 130px;
+    line-height: 130px;
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 22px;
+}
+.main-menu .main-nav > li > a:hover {
+    color: #ea2e49;
+}
+.main-menu .main-nav > li > a:before,
+.main-menu .main-nav > li > a:after {
+	display: none;
+}
+.header #logo {
+    margin-top: 30px;
+}
+.button-slide a, .button {
+	background-color: #ea2e49;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #ea2e49 !important;
+}
+.accordion-heading .number {
+    color: #ea2e49;
+}
+.recent-post h6 a:hover {
+    color: #ea2e49;
+}
+.popup-close .grid {
+	color: #fff;
+    background: #fff;
+}
+.simple-line-2 {
+	border-color: rgba(255,255,255,0.23);
+}

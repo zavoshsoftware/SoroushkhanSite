@@ -1,0 +1,47 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+.main-menu .main-nav > li > a {
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 14px;
+}
+.simple-line-2 {
+    border-bottom: 1px solid #efefef;
+}
+.single-navigation .prev-nav a, 
+.single-navigation .next-nav a {
+    color: #3e3e3e;
+}
+.single-navigation .prev-nav a:hover, 
+.single-navigation .next-nav a:hover {
+    color: #f5e04d;
+}
+.single-author .single-author-brief h4 a {
+    color: #222222;
+}
+.single-author .single-author-brief h4 a:hover {
+    color: #f5e04d;
+}
+ol.commentlist li {
+    border-bottom: 1px solid #efefef;
+}
+ol.commentlist .children li {
+    border-top: 1px solid #efefef;
+}
+.comment-form .form-text, .comment-form .form-textarea,
+.commerce-login-form .form-text, .commerce-login-form .form-textarea,
+.contact-form .form-text, .contact-form .form-textarea {
+	background: none;
+	border-color: #efefef;
+}
+.comment-form .form-text.highlighted:focus,
+.comment-form .form-textarea.highlighted:focus,
+.commerce-login-form .form-text.highlighted:focus,
+.commerce-login-form .form-textarea.highlighted:focus,
+.contact-form .form-text.highlighted:focus,
+.contact-form .form-textarea.highlighted:focus {
+    border-color:rgba(18, 178, 203 ,0.65);
+	background-color:rgba(255, 255, 255 ,0.95);
+	color:#f5e04d;
+}

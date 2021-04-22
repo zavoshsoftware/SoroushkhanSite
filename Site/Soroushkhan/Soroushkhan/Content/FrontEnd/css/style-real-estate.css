@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lora', serif;
+	color: #808080;
+	font-size: 15px;
+}
+.pt-sans {
+	font-family: 'PT Sans', sans-serif;
+}
+a, a:hover, a:active {
+	color: #2588ce;
+}
+#hook-to-top {
+	background-color: #2588ce;
+}
+.main-menu .main-nav > li > a {
+	font-weight: 600;
+    font-size: 14px;
+	color: #fff;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #fff;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #fff;
+}
+.service-item .service-icon > i {
+    color: #2588ce;
+}
+.main-menu .main-nav > li > a:after, 
+.main-menu .main-nav > li > a:before {
+    background-color: #fff;
+}
+.main-menu .main-nav > li > a,
+.main-menu .main-nav li .dropdown-menu a,
+.section-title, .widget-title,
+.recent-post h6 a, .masonry-filter li a,
+.portfolio-detail-1 .portfolio-detail-title,
+.portfolio-detail-2 .portfolio-detail-title {
+    font-family: 'PT Sans', sans-serif;
+}
+.main-menu .main-nav li .dropdown-menu a {
+	color: #111111;
+	background-color: #fff;
+}
+.main-menu .main-nav li .dropdown-menu a:hover {
+    color: #2588ce;
+}
+.main-nav .dropdown-menu li {
+    border-bottom: 1px solid #e8e8e8;
+}
+.main-nav .dropdown-menu {
+	border-color: #e8e8e8;
+}
+.header.header-transparent.scrolling-menu .header-main {
+    background-color: rgba(37, 136, 206 ,0.98);
+}
+.button-slide a, .button {
+	background-color: #2588ce;
+}
+.accordion-heading .accordion-toggle.active {
+    color: #2588ce !important;
+}
+.accordion-heading .number {
+    color: #2588ce;
+}
+.contact-item > i {
+    color: #2588ce;
+}
+.recent-post h6 a:hover {
+    color: #2588ce;
+}
+.button:before {
+	background-color: #1f7aba;
+}
+.simple-line {
+	border-color: #2588ce;
+}
+.testimonials-slider .owl-page.active:before {
+    background-color: #2588ce;
+    border-color: #2588ce;
+}
+.contact-item > i {
+    color: #2588ce;
+}
+.subtitle {
+	color: #afafaf;
+}
+.portfolio-masonry-item .grid-content-wrapper .grid-cate {
+    color: #afafaf;
+}
+.member-position {
+	font-size: 15px;
+}
+.block-progressbar .progressbar-front-text,
+.progress-wraper .progress-title {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 0.85rem;
+	font-weight: 600;
+}
+.masonry-filter li a.active, 
+.masonry-filter li a:hover {
+    color: #2588ce;
+}
+.portfolio-detail-info .label,
+.portfolio-detail-info .content,
+.single-portfolio-share .share-link > a {
+	font-size: 13px;
+}
+.simple-line-2 {
+	border-color: #e2e2e2;
+}
+.comment-form .form-text, .comment-form .form-textarea,
+.commerce-login-form .form-text, .commerce-login-form .form-textarea,
+.contact-form .form-text, .contact-form .form-textarea {
+	background: none;
+	border-color: #efefef;
+}
+.comment-form .form-text.highlighted:focus,
+.comment-form .form-textarea.highlighted:focus,
+.commerce-login-form .form-text.highlighted:focus,
+.commerce-login-form .form-textarea.highlighted:focus,
+.contact-form .form-text.highlighted:focus,
+.contact-form .form-textarea.highlighted:focus {
+    border-color: rgba(37, 136, 206 ,0.65);
+	background-color:rgba(255, 255, 255 ,0.95);
+	color:#2588ce;
+}
+.contact-form .form-text.highlighted:focus::-webkit-input-placeholder,
+.contact-form .form-textarea.highlighted:focus::-webkit-input-placeholder {
+	color: #2588ce;
+}
+.contact-form .form-text.highlighted:focus:-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus:-moz-placeholder {
+	color: #2588ce;
+}
+.contact-form .form-text.highlighted:focus::-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus::-moz-placeholder {
+	color: #2588ce;
+}
+.contact-form .form-text.highlighted:focus:-ms-input-placeholder,
+.contact-form .form-textarea.highlighted:focus:-ms-input-placeholder {
+	color: #2588ce;
+}
+.recent-post h6 a:hover {
+    color: #2588ce;
+}
+.blog-masonry-item .blog-inner .image-thumb .blog-overlay {
+	background-color: rgba(0, 91, 130, 0.6);
+}

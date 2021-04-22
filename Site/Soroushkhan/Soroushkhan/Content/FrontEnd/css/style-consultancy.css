@@ -1,0 +1,113 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+	color: #828282;
+}
+.lora {
+	font-family: 'Lora', serif;
+	color: #191919;
+}
+a, a:hover, a:active {
+	color: #f1c40f;
+}
+#hook-to-top {
+	background-color: #f1c40f;
+}
+.main-menu .main-nav > li > a:before,
+.main-menu .main-nav > li > a:after {
+	display: none;
+}
+.main-menu .main-nav > li > a {
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 14px;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #f1c40f;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #f1c40f;
+}
+.header.header-transparent.scrolling-menu .header-main {
+    background-color: #02305d;
+}
+.service-item .service-icon > i {
+    color: #f1c40f;
+}
+#anchor, .anchor {
+    bottom: 40px;
+}
+.lora {
+	font-family: 'Lora', serif;
+	color: #191919;
+}
+.simple-line {
+	border-width: 6px;
+	border-color: #f1c40f;
+}
+.simple-line-3 {
+	border-color: #e2e2e2;
+}
+.button {
+	background-color: #f1c40f;
+}
+.button:before {
+	background-color: #f7d036;
+    border-color: #f7d036;
+}
+.masonry-filter li a {
+	text-transform: uppercase;
+	font-size: 0.85em;
+	color: #aaaaaa;
+}
+.masonry-filter li a.active, .masonry-filter li a:hover {
+    color: #191919;
+}
+.counter-digit {
+    margin-bottom: 10px;
+}
+.counter-desc {
+    font-family: 'PT Sans', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+.contact-form .form-text, .contact-form .form-textarea {
+	border-color: #e2e2e2;
+	background: none;
+}
+.contact-form .form-text.highlighted:focus,
+.contact-form .form-textarea.highlighted:focus {
+    border-color: rgba(241, 196, 15 ,0.65);
+	background-color: rgba(242, 242, 242 ,0.95);
+	color: #f1c40f;
+}
+.contact-form .form-text.highlighted:focus::-webkit-input-placeholder,
+.contact-form .form-textarea.highlighted:focus::-webkit-input-placeholder {
+	color: #f1c40f;
+}
+.contact-form .form-text.highlighted:focus:-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus:-moz-placeholder {
+	color: #f1c40f;
+}
+.contact-form .form-text.highlighted:focus::-moz-placeholder,
+.contact-form .form-textarea.highlighted:focus::-moz-placeholder {
+	color: #f1c40f;
+}
+.contact-form .form-text.highlighted:focus:-ms-input-placeholder,
+.contact-form .form-textarea.highlighted:focus:-ms-input-placeholder {
+	color: #f1c40f;
+}
+.recent-post h6 a:hover {
+    color: #f1c40f;
+}
+.color-1 {
+	color: #02305d;
+}
+.color-2 {
+	color: #6a92d4;
+}
+.bg-color-con {
+  background-color: #02305d !important;
+}

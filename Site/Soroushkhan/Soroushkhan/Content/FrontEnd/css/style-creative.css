@@ -1,0 +1,53 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+a, a:hover, a:active {
+	color: #f1c40f;
+}
+#hook-to-top {
+	background-color: #f1c40f;
+}
+.main-menu .main-nav > li > a:before,
+.main-menu .main-nav > li > a:after {
+	display: none;
+}
+.main-menu .main-nav > li > a {
+	color: #ffffff;
+	font-weight: 600;
+    font-size: 14px;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #f1c40f;
+}
+.header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:hover, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a:focus, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li.active > a, .header.header-transparent.scrolling-menu .header-main .main-menu .main-nav > li > a.current {
+    color: #f1c40f;
+}
+#js-rotating {
+	font-size: 6.6em;
+	line-height: 1em;
+	font-weight: 700;
+}
+.service-item .service-icon > i {
+    color: #f1c40f;
+}
+.portfolio-fullwidth .button:hover {
+	border-color: #f1c40f;
+}
+.portfolio-fullwidth .button:before {
+	background-color: #f1c40f; 
+}
+.counter-digit {
+    color: #f1c40f;
+}
+.counter-desc {
+    color: #fff;
+}
+.simple-line-3 {
+	border-color: #f1c40f;
+}
+.recent-post h6 a:hover {
+    color: #f1c40f;
+}
